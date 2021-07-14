@@ -2,15 +2,9 @@ use std::fs;
 use std::path::Path;
 use std::env;
 use std::process;
-use regex::Regex;
 mod jadf;
 use crate::jadf::jadf::Field;
 use crate::jadf::jadf::read;
-struct Field {
-    variable_name: String,
-    value_string: String,
-}
-
 fn main() {
     println!("JADF (Just Another Data Format) test program!");
     let program_args: Vec<String> = env::args().collect();
