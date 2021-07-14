@@ -10,4 +10,6 @@ Build with `cargo build --release` if you want optimizations, `cargo build` othe
 # Running  
 If built with `cargo build --release`, the binary will be located under `/target/release/jadf`.
 If built with cargo build the binary will be located under `/target/debug/jadf`.
-In both cases, the preferred way to run the test program is with `cargo run argument`, where argument is a full or relative path to an existing file with a .jadf extension.
+In both cases, the preferred way to run the test program is with `cargo run argument`, where argument is a full or relative path to an existing file with a .jadf extension.  
+# Credits  
+special thanks go to [Shy](https://github.com/robertspeedwagon) for their extensive help in making this project.
