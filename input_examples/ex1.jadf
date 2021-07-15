@@ -1,3 +1,4 @@
-testvar1 <- "hi"
+testvar1 <- 				 "hi"
 it_also_works_with_underscores <- "hi again!"
-test_number <- "1234567890"
+	and_tabs! <- "aaaaaaaaaa"
+test_number <- 		"999999999"
